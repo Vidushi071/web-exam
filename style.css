@@ -102,6 +102,7 @@ section{
 .pictures .grid-container .box{
     /* padding:2rem; */
     text-align: center;
+    border-radius: 10px;
     /* border:2px solid black;  */
 }
 .container{
@@ -117,16 +118,34 @@ section{
     /* margin:20px; */
 }
 .pictures .grid-container img{
-    height: 25rem;
+    height: 26rem;
     overflow:hidden;
     width: 100%;
+    border-radius: 10px;
 }
 .pictures .grid-container img:hover{
     opacity: 50%;
 
 
 }
-.bg-box{
+
+.bg-box1{
+    background-color: lightcoral;
+    
+}.bg-box2{
+    background-color:lightgreen;
+    
+}.bg-box3{
+    background-color: skyblue;
+    
+}.bg-box4{
+    background-color: orangered;
+    
+}.bg-box5{
+    background-color:pink;
+    
+}
+.bg-box6{
     background-color: blue;
     
 }
@@ -239,7 +258,7 @@ li{
     align-items: center;
     justify-content: center;
     padding: 10rem;
-     background: url(/img/Landscape-Color.jpg)  no-repeat; 
+     background: url(/web-exam/img/Landscape-Color.jpg)  no-repeat; 
     background-size: cover;
     background-position: center;
     
@@ -254,6 +273,7 @@ li{
     font-size: 3rem;
     color:black;
     text-align: center;
+    
 }
 .container3 .content p{
     font-size: 1.6rem;
